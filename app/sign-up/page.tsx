@@ -45,7 +45,7 @@ const SignUp = () => {
         router.push("/dashboard ");
       }
     } catch (error) {
-      setError("An unexpected error occurred");
+      setError(`An unexpected error occurred: ${error}`);
     } finally {
       setLoading(false);
     }
