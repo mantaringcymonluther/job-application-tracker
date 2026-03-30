@@ -8,7 +8,8 @@ const ImageTabs = () => {
   const [activeTab, setActiveTab] = useState("organize"); //organize, hired, boards
 
   return (
-    <section className="border-t bg-white py-16">
+    // remove border-t
+    <section className="bg-white py-16">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-6xl">
           {/* Tabs */}
