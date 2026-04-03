@@ -90,7 +90,7 @@ const SignIn = () => {
               <Input
                 id="password"
                 type="password"
-                placeholder="Password"
+                placeholder="Enter your password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
