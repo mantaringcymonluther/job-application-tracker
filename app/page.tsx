@@ -35,7 +35,7 @@ const page = () => {
 
         {/* Features Section */}
         {/* remove border-t */}
-        <section className="bg-white py-24 border-t">
+        <section className="bg-white py-24">
           <div className="container mx-auto px-4">
             <div className="grid gap-12 md:grid-cols-3">
               <div className="flex flex-col">

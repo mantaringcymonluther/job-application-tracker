@@ -9,7 +9,7 @@ const ImageTabs = () => {
 
   return (
     // remove border-t
-    <section className="bg-white py-16 border-t">
+    <section className="bg-white py-16">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-6xl">
           {/* Tabs */}
